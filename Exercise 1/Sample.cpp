@@ -7,7 +7,7 @@ void SampleUnload(_In_ PDRIVER_OBJECT DriverObject) {
 
 void PrintVersion() {
 	RTL_OSVERSIONINFOW osVersionInfo{};
-	if (RtlGetVersion(&osVersionInfo) != STATUS_SUCCESS) {
+	if (!NT_SUCCESS(RtlGetVersion(&osVersionInfo))) {
 		KdPrint(("RtlGetVersion failed.\n"));
 		return;
 	}
