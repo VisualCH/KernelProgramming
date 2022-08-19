@@ -1,4 +1,4 @@
-# KernelProgramming
+# Kernel Programming
 
 This is a collection of exercises and code samples from the book "Windows Kernel Programming" from Pavel Yosifovich ([link to the book](https://www.amazon.com/-/de/dp-1977593372/dp/1977593372))
 Content:
